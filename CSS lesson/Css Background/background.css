@@ -1,0 +1,27 @@
+body{
+    background-color: antiquewhite;
+}
+
+.color-example  {
+    color:rgb(4, 117, 70);
+}
+
+.background-example {
+    background-color: aquamarine;
+}
+
+.background-image {
+    background-image: url("download.jpeg");
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-sizing-example {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}

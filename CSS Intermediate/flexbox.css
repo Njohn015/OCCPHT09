@@ -1,0 +1,39 @@
+.flexContainer {
+    display:flex;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+}
+
+/* Flex grow */
+.flexItem1 {
+    flex-grow: 1;
+    /* 1 / 3 */
+}
+.flexItem2 {
+    flex-grow: 1;
+    /* 1 / 3 */
+}
+.flexItem3 {
+    flex-grow: 1;
+    /* 1 / 3 */
+}
+
+
+/* Flex Shrink */
+.flexItem1 {
+    flex-shrink: 2;
+}
+.flexItem2 {
+    flex-shrink: 0;
+}
+.flexItem3 {
+    flex-shrink: 1;
+}
+
+/* Warning Don't use the same function this two in grow or shrink */
+/* .flexContainer {
+    justify-content: center;
+    align-items: end;
+} */

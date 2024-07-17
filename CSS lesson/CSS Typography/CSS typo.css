@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+
+/* Naming Conventions */
+/* 
+    Camel Casing:
+    fontFamilySize
+    Khebab Casing:
+    font-family-size
+*/
+.font-family-size {
+    font-family: "Black Ops One", system-ui;
+}
+    
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.line-height {
+    line-height: 4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    width: 200px;
+    border: 1px solid;
+}
+
+.letter-spacing{
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-indent: 8px;
+}
+
+/* 
+    1st value: Horizontal
+    2nd value: Vertical
+    3rd value: Blur Effect
+*/
+
+.text-shadow {
+    text-shadow: 6px 10px 2px green;
+    text-transform: uppercase;
+}

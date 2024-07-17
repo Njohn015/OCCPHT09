@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(65, 64, 64);
+    overflow-y: auto;
+    margin: 0;
+}
+
+*{
+    padding: 0px;
+}
+
+.Background {
+    background-image: url("Background.jpeg");
+    background-repeat: no-repeat;
+     background-attachment: fixed;  
+    background-size: cover;
+    height: 100%;
+}
+
+
+div {
+    text-align: center;
+}
+
+.Name, .Info, .hobby {
+    color:whitesmoke;
+}
+
+nav {
+    background-color: rgb(48, 111, 165);
+    border: 1px solid;
+    margin-inline: auto;
+}
+
+.aside {
+    float: inline-start;
+    width: 200px;
+    height: 100%;
+    background-color: antiquewhite;
+    border: 1px solid;
+    position:static;
+}
+
+.Info {
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    border: 1px solid;
+}
+
+h5, .name{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Image {
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+
+#Image {
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    float :inline-end;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(24, 24, 24);
+    color: white;
+    text-align: center;
+}

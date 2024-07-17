@@ -1,0 +1,76 @@
+/* Element Selectors */
+span {
+    color: rgb(212, 0, 255);
+}
+
+/* Class Selector */
+.class-name {
+    color: firebrick;
+}
+.class-name1 {
+    color: rgb(119, 0, 255);
+}
+
+/* Id Selector */
+#id-name {
+    color: indigo;
+}
+
+/* Universal Selector */
+/* Recommended in top of text */
+* {
+    color: darkorange;
+    font-size: 10px;
+}
+
+/* Attribute Selector */
+a[href]{
+    color: rgb(61, 2, 2);
+}
+a[href="www.sample.com"] {
+    color: cornflowerblue;
+}
+
+/* Grouping Selector */
+h1, .parag, h2 {
+    color: darkseagreen;
+}
+
+/* Descendant Selector */
+.ancestor h3 {
+    color: rgb(75, 75, 1);
+}
+
+.ancestor p {
+    color: navy;
+}
+
+.ancestor p[class="second"] {
+    color: skyblue;
+}
+
+/* Pseudo Selector */
+button:hover {
+    background-color: black;
+    color: pink;
+}
+
+a[href="https://www.example.com"] {
+    color: fuchsia;
+}
+
+/* Pseudo Elements */
+#pseudo-element::before {
+    content: "This is Paragraph before h3. ";
+    color: lime;
+}
+
+#pseudo-element::after {
+    content: " This is Paragraph before h3.";
+    color: rgb(0, 155, 202);
+}
+
+#pseudo-element::first-letter {
+    color: cornsilk;
+    font-size: 40px;
+}
